@@ -1,6 +1,28 @@
+import {useState} from "react";
 import "./contact.scss";
 
 export default function Contact() {
+
+  const [message, setMessage] = useState(false);
+
+  const handleSubmit = (e) => {
+    //get values
+    let name = document.querySelector(".name").value;
+    let email = document.querySelector(".email").value;
+    let message = document.querySelector(".message").value;
+
+    if(!name || !email || !message){
+      alert("please submit a valid entry");
+    }
+    else{
+      e.preventDefault();
+      setMessage(true);
+    }
+  }
+  
+
+  
+
   return (
   <div className="contact" id="contact">
     <div className="wrapper">
@@ -9,11 +31,11 @@ export default function Contact() {
     <div className="content">
       <div className="form">
         <p>Drop a message in the box below to say hi, or see if we can built something amazing together. I will look forward to hearing from you !</p>
-        <form>
-          <input type="text" placeholder="Email"/>
-          <input type="text" placeholder="Name"/>
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
+        <form method="POST" action="https://formspree.io/angelguerrero0100@gmail.com">
+          <input type="text" placeholder="Email" className="email"/>
+          <input type="text" placeholder="Name" className="name"/>
+          <textarea placeholder="Message" className="message"></textarea>
+          <button type="submit" onClick={handleSubmit}>Send</button>
         </form>
       </div>
       <div className="social">

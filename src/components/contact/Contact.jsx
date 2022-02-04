@@ -11,14 +11,39 @@ export default function Contact() {
     let email = document.querySelector(".email").value;
     let message = document.querySelector(".message").value;
 
-    if(!name || !email || !message){
-      alert("please submit a valid entry");
+    if(!name){
+      alert("please enter a name");
+      clearInput();
+    }
+    if(!email){
+      alert("please enter an email address");
+      clearInput();
+    }
+    if(!message){
+      alert("please enter a message");
+      clearInput();
     }
     else{
+      if(validEmail(email)==false){
+        alert("please enter a valid email address");
+        clearInput();
+      }
       e.preventDefault();
       setMessage(true);
     }
   }
+
+  function validEmail(e) {
+    var filter = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+    return String(e).search (filter) != -1;
+  }
+
+  function clearInput(){
+    document.querySelector(".name").value = '';
+    document.querySelector(".email").value = '';
+    document.querySelector(".message").value = '';
+  }
+  
   
   return (
   <div className="contact" id="contact">

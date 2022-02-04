@@ -10,7 +10,7 @@ import { useEffect, useRef } from "react";
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Astrophile", "Adventurer", "Movie Enthusiast"], //remember to add emojies
+      strings: ["Astrophile", "Adventurer", "Movie Enthusiast", "Amateur Photographer"], //remember to add emojies
     });
   }, []);
    

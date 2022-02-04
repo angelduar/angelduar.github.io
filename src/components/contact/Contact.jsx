@@ -20,9 +20,6 @@ export default function Contact() {
     }
   }
   
-
-  
-
   return (
   <div className="contact" id="contact">
     <div className="wrapper">
@@ -31,7 +28,7 @@ export default function Contact() {
     <div className="content">
       <div className="form">
         <p>Drop a message in the box below to say hi, or see if we can built something amazing together. I will look forward to hearing from you !</p>
-        <form method="POST" action="https://formspree.io/angelguerrero0100@gmail.com">
+        <form method="POST" /*action="https://formspree.io/angelguerrero0100@gmail.com"*/>
           <input type="text" placeholder="Email" className="email"/>
           <input type="text" placeholder="Name" className="name"/>
           <textarea placeholder="Message" className="message"></textarea>
@@ -44,7 +41,8 @@ export default function Contact() {
         <ul>
           <li>
           <a href="http://instagram.com/angelduar">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true">
+            </i>
           </a>
           </li>
           <li>

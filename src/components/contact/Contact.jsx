@@ -6,7 +6,7 @@ export default function Contact() {
   const [message, setMessage] = useState(false);
 
   const handleSubmit = (e) => {
-    //get values
+    
     let name = document.querySelector(".name").value;
     let email = document.querySelector(".email").value;
     let message = document.querySelector(".message").value;

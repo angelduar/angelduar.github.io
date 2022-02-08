@@ -23,6 +23,11 @@ function App() {
         <Interests/>
         <Contact/>
       </div>
+      <div className="footer">
+        <div className="wrapper">
+          <p>© 2021 - 2022 | Designed & coded with 💙 by Angel Guerrero</p>
+        </div>
+      </div>
     </div>
   );
 }

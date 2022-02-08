@@ -52,7 +52,7 @@ export default function Contact() {
     <h3>Get In Touch !</h3>
     <div className="content">
       <div className="form">
-        <p>Drop a message in the box below to say hi, or see if we can built something amazing together. I will look forward to hearing from you !</p>
+        <p>Drop a message in the box below to say hi, ask for my resume or see if we can built something amazing together. I will look forward to hearing from you !</p>
         <form method="POST" /*action="https://formspree.io/angelguerrero0100@gmail.com"*/>
           <input type="text" placeholder="Email" className="email"/>
           <input type="text" placeholder="Name" className="name"/>

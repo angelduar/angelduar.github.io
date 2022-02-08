@@ -6,6 +6,7 @@ import Interests from "./components/interests/Interests";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import Tools from "./components/tools/Tools";
+import Footer from "./components/footer/Footer";
 import {useState} from "react";
 import "./app.scss"
 
@@ -22,11 +23,7 @@ function App() {
         <Portfolio/>
         <Interests/>
         <Contact/>
-      </div>
-      <div className="footer">
-        <div className="wrapper">
-          <p>© 2021 - 2022 | Designed & coded with 💙 by Angel Guerrero</p>
-        </div>
+        <Footer/>
       </div>
     </div>
   );

@@ -1,3 +1,110 @@
+@import "../../global.scss";
+
 .interests{
-    background-color: lightyellow;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 1px;
+
+    .wrapper{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 12%;
+
+        h2{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            margin: 0 0 10px;
+            letter-spacing: 0.06rem;
+            color: $mainColor;
+        }
+        
+        h3{
+            line-height: 1.3;
+            text-transform: capitalize;
+            margin: 0 0 1rem;
+            color: lightskyblue;
+            font-size: 2.1rem;
+        }
+
+        p{
+            margin-bottom: 60px;
+            line-height: 1.55;
+            font-size: 1.2rem;
+        }
+
+        .content-container{
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: start;
+            align-items: center;
+            margin-bottom: 8.2rem;
+
+            .movie-container{
+                padding: 0 20px;
+                border:1px solid red;
+                border-radius: 20%;
+                background-color: lightskyblue ;
+            }
+
+            .book-container{
+                padding: 0 20px;
+                border:1px solid red;
+                border-radius: 20%;
+                background-color: lightskyblue ;
+            }
+
+            .activity-container{
+                padding: 0 20px;
+                border:1px solid red;
+                border-radius: 20%;
+                background-color: lightskyblue ;
+            }
+
+            h4{
+                margin-top: 25px;
+                margin-bottom: 25px;
+                color: white;
+
+                .film::before{
+                    margin-left: 10px;
+                    font-size: 1.5rem;
+                    content: "🎬";
+                }
+
+                .book::before{
+                    margin-left: 10px;
+                    font-size: 1.5rem;
+                    content: "📚";
+                }
+
+                .activities::before{
+                    margin-left: 10px;
+                    font-size: 1.5rem;
+                    content: "🏃‍♂️";
+                }
+
+                .activities1::before{
+                    margin-left: 10px;
+                    font-size: 1.5rem;
+                    content: "🏔️";
+                }
+            }
+
+            ul{
+                list-style: disc inside;
+                margin-bottom: 30px;
+                color: white;
+
+                li{
+                    margin: 10px 0;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }

@@ -54,7 +54,21 @@
                     border-radius: 10%;
                 }
             }
-        }
+
+            .container-img-inverted{
+                width: 55%;
+                padding-top: 25px;
+                margin: 0 -60px;
+                display: inline-block;
+
+                img{
+                    display: block;
+                    width: 100%;
+                    min-width: 100%;
+                    border-radius: 10%;
+                }
+            }
+        
 
         .text-container{
             -webkit-box-original-group: 0;
@@ -124,7 +138,77 @@
                 }
         }
 
+        .text-container-inverted{
+            -webkit-box-original-group: 0;
+            order: 1;
+            padding-left: 0;
+            width: 45%;
+            display: inline-block;
+            margin: 0 60px;
+
+                h4{
+                    color: $mainColor;
+                    font-size: 30px;
+                    margin-bottom:20px;
+                }
+
+                p{
+                    font-size: 22px;
+                }
+
+                .btn{
+                    margin-bottom: 7px;
+                    margin-top: 10px;
+                    background-color: lightskyblue;
+                    position: relative;
+                    display: inline-block;
+                    padding: 1rem 1.5rem 1rem;
+                    border: none;
+                    margin-right: 5px;
+                    color: white;
+                    text-decoration: none;
+                    letter-spacing: .01rem;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                }
+
+                .btn:hover{
+                    background-color: lightsalmon;
+                }
+                
+                .container-icons{
+                    color: #fff;
+                    margin-bottom: 1rem;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+
+                    .box-icon{
+                       margin-right: 8px;
+                       margin-top: 10px;
+                       position: relative; 
+
+                       [class*=" devicon-"], [class^="devicon-"]{
+                           font-family: devicon;
+                           font-style: normal;
+                           font-weight: 500;
+                           font-variant: normal;
+                           text-transform: none;
+                           line-height: 1;
+                           color: black;
+                           font-size:30px;
+                           -moz-osx-font-smoothing: grayscale;
+                       }
+                    }
+
+                }
+        }
+
 
     }
+}
 
 }

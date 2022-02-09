@@ -14,7 +14,7 @@ export default function About() {
           <h4>A Highly Motivated Software Developer</h4>
           <p> I am a highly motivated and passionate learner as well as a flexible team player that enjoys working with people from diverse backgrounds. My goal is to make the world a better place by using technology as the driving force that will make this change possible.</p>
           <p>I have a bachelor's degree in Computer Science from the <a href="https://ku.edu/">University of Kansas</a> and professional experience in Software Development through an internship at <a href="https://matterport.com/en-gb">Matterport Inc</a>.</p>
-          <p>I love to solve problems and bring ideas to life through my skills, I also enjoy working with people and approaching problems as a team. I am happiest when I am either learning or focused on creating and/or solving</p>
+          <p>I love to solve problems and bring ideas to life through my skills, I also enjoy working with people and approaching problems as a team. I am happiest when I am either learning or focused on creating content and/or solving problems</p>
           <div className="contact-container">
             <a href="#contact">Click Here To Get In Touch!</a>
           </div>

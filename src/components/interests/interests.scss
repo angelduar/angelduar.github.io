@@ -149,9 +149,21 @@
 
                 li{
                     margin: 10px 0;
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                 }
             }
         }
+        .soon{
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            -webkit-box-pack: justify;
+            justify-content: space-around;
+            -webkit-box-align: start;
+            align-items: center;
+            margin-bottom: 4rem;
+            }
     }
 }

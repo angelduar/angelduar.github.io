@@ -46,6 +46,10 @@ export default function Interests() {
           </ul>
         </div>
       </div>
+      <div className="soon">
+          <h3>New Exciting things Coming soon</h3>
+          <p>Stay tuned !</p>
+        </div>
     </div>
   </div>
   )

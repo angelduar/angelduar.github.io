@@ -10,11 +10,19 @@
         margin: 0 auto;
         padding: 0 12%;
 
+        @include mobile{
+            padding: 0 5%;
+        }
+
         h2{
             text-transform: uppercase;
             margin: 0 0 10px;
             letter-spacing: 0.06rem;
             font-size: 1.2rem;
+
+            @include mobile{
+                font-size: 1rem;
+            }
         }
     
         h2.light{
@@ -26,7 +34,11 @@
             text-transform: capitalize;
             line-height: 1.3;
             margin: 0 0 5rem;
-            color: lightskyblue
+            color: lightskyblue;
+
+            @include mobile{
+                font-size: 2rem;
+            }
         }
 
         .work-container{
@@ -41,11 +53,26 @@
             align-items: center;
             margin-bottom: 8.2rem;
 
+            @include mobile{
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-bottom: 4.1rem;
+            }
+
             .container-img{
                 width: 55%;
                 padding-top: 25px;
                 margin: 0 60px;
                 display: inline-block;
+
+                @include mobile{
+                    width: 100%;
+                    padding-top: 20px;
+                    margin: 0 auto;
+                    
+                }
+                
 
                 img{
                     display: block;
@@ -77,14 +104,28 @@
             width: 45%;
             display: inline-block;
 
+            @include mobile{
+                width: 100%;
+                padding-right: 8%;
+            }
+
                 h4{
                     color: $mainColor;
                     font-size: 30px;
                     margin-bottom:20px;
+
+                    @include mobile{
+                        font-size: 20px;
+                    }
                 }
 
                 p{
                     font-size: 22px;
+
+                    @include mobile{
+                        font-size: 16px;
+                        
+                    }
                 }
 
                 .btn{

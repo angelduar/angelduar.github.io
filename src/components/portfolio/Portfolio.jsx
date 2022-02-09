@@ -31,10 +31,10 @@ export default function Portfolio() {
           </div>
 
           <div className="work-container">
-          <div className="container-img-inverted">
+          <div className="container-img">
               <img src="assets/calendar.png" alt=""/>
             </div>
-            <div className="text-container-inverted">
+            <div className="text-container">
               <h4>Calendar Application</h4>
               <p>
               If you need to schedule an event, manage invitations and comfirmations, look no further as this Calendar application fully developed in C++ will take care of everything for you. 
@@ -82,7 +82,7 @@ export default function Portfolio() {
             <div className="container-img">
               <img src="assets/Apod.png" alt=""/>
             </div>
-            <div className="text-container-inverted">
+            <div className="text-container">
               <h4>APOD API</h4>
               <p>
               This is a web application built using vanilla Javascript, HTML and CSS. The application makes use of Nasa's APOD (Astronomy Picture of the Day) API to get any astronomical picture since the day this

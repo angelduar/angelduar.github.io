@@ -9,12 +9,20 @@
         margin: 0 auto;
         padding: 0 12%;
 
+        @include mobile{
+            padding: 0 5%;
+        }
+
         h2{
             font-size: 1.2rem;
             text-transform: uppercase;
             margin: 0 0 10px;
             color: $mainColor;
             letter-spacing: 0.06rem;
+
+            @include mobile{
+                font-size: 1rem;
+            }
         }
 
         h3{
@@ -23,6 +31,10 @@
             text-transform: capitalize;
             margin: 0 0 1rem;
             color: lightskyblue;
+
+            @include mobile{
+                font-size: 1.5rem;
+            }
         }
 
         .content-container{
@@ -36,22 +48,41 @@
             -webkit-box-align: start;
             align-items: flex-start;
 
+            @include mobile{
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
             .container-img{
                 width: 30%;
                 margin-top: 20px;
                 max-width: 300px;
+
+                @include mobile{
+                    max-width: 300px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
 
                 img{
                     display: block;
                     width: 100%;
                     min-width: 100%;
                     border: 0;
+
+
                 }
             }
 
             .container-text{
                 width: 70%;
                 padding-left: 5%;
+
+                @include mobile{
+                    width: 100%;
+                }
 
                 h4{
                     font-size: 1.80rem;
@@ -61,12 +92,20 @@
                     letter-spacing: 0.02rem;
                     margin: 1rem 0 -0.5rem;
                     margin-bottom: 30px;
+
+                    @include mobile{
+                        font-size: 1.4rem;
+                    }
                 }
 
                 p{
                     line-height: 1.8;
                     font-size: 1.4rem;
                     margin-bottom: 20px;
+
+                    @include mobile{
+                        font-size: 1rem;
+                    }
                 }
 
                 .contact-container{
@@ -82,6 +121,10 @@
                     font-style: italic;
                     text-transform: capitalize;
                     text-decoration: none;
+
+                    @include mobile{
+                        font-size: 1rem;
+                    }
                 }
             }
         }

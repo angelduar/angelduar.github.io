@@ -12,6 +12,10 @@
         margin: 0 auto;
         padding: 0 12%;
 
+        @include mobile{
+            padding: 0 5%;
+        }
+
         h2{
             font-size: 1.2rem;
             letter-spacing: 0.06rem;
@@ -25,6 +29,10 @@
             text-transform: capitalize;
             margin: 0 0 1rem;
             color: lightskyblue;
+
+            @include mobile{
+                font-size: 1.5rem;
+            }
         }
 
         .content{
@@ -38,13 +46,26 @@
             -webkit-box-align: start;
             align-items: flex-start;
 
+            @include mobile{
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
             .form{
                 width: 62%;
+
+                @include mobile{
+                    width: 100%;
+                }
 
                 p{
                     margin-top: 20px;
                     line-height: 1.55;
                     font-size: 1.2rem;
+
+                    @include mobile{
+                        font-size: 1rem;
+                    }
                 }
 
                 form{
@@ -90,16 +111,30 @@
                 padding: 126px 0 0 45px;
                 width: 37%;
 
+                @include mobile{
+                    margin-top: 30px;
+                    width: 100%;
+                    padding: 0;
+                }
+
                 p{
                     line-height: 1.55;
                     font-size: 1.2rem;
                     margin-bottom: 25px;
+
+                    @include mobile{
+                        font-size: 1rem;
+                    }
                 }
 
                 .social-icons{
                     max-width:500px;
                     overflow-x: hidden;
                     margin: 0;
+
+                    @include mobile{
+                        width: 100%;
+                    }
 
                     ul{
                         display:flex;
@@ -109,13 +144,25 @@
                         float: left;
                         justify-content: space-evenly;
 
+                        @include mobile{
+                            justify-content: space-between;
+                            align-items: center;
+                            display: flex-start;
+                            margin-bottom: 20px;
+                        }
+
                         li{
                             width: 25px;
                             height: 25px;
                             transform: scale(1);
                             list-style-type: none;
-                            margin: 26px;
+                            margin: 22px;
                             padding: 0;
+
+                            @include mobile{
+                                width: 22px;
+                                height: 22px;
+                            }
                             a{
                                 color:$mainColor;
                                 text-decoration: none;
@@ -125,6 +172,10 @@
                                 font-style:italic;
                                 text-transform: capitalize;
                                 color: lightskyblue;
+
+                                @include mobile{
+                                    font-size: 1rem;
+                                }
 
                                 a:hover{
                                     color: lightsalmon;

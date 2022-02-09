@@ -8,7 +8,7 @@ export default function About() {
       <h3>Who is Angel?</h3>
       <div className="content-container">
         <div className="container-img">
-          <img src="assets/IMG_1919_copy.png" alt=""/>
+          <img src="assets/IMG_1919_copy.png"/>
         </div>
         <div className="container-text">
           <h4>A Highly Motivated Software Developer</h4>

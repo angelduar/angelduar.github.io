@@ -24,6 +24,10 @@
             }
         }
 
+        hr{
+            color: #ee6557;
+        }
+
         h2.light{
             color: $mainColor;
         }
@@ -31,8 +35,8 @@
         h3{
             line-height: 1.3;
             text-transform: capitalize;
-            margin: 0 0 1rem;
-            color: lightskyblue;
+            margin: 1rem 0 1rem;
+            color: #16a6b6;
             font-size: 2.1rem;
 
             @include mobile{

@@ -5,6 +5,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <div className="wrapper">
           <h2 className="light">work</h2>
+          <hr></hr>
           <h3>A Selection of Things I Have Built</h3>
           <div className="work-container">
             <div className="container-img">

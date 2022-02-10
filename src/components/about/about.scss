@@ -25,12 +25,16 @@
             }
         }
 
+        hr{
+            color: #ee6557;
+        }
+
         h3{
             font-size: 2.1rem;
             line-height: 1.3;
             text-transform: capitalize;
-            margin: 0 0 1rem;
-            color: lightskyblue;
+            margin: 1rem 0 1rem;
+            color: #16a6b6;
 
             @include mobile{
                 font-size: 1.5rem;
@@ -125,6 +129,10 @@
                     @include mobile{
                         font-size: 1rem;
                     }
+                }
+
+                a:hover{
+                    color: #ee6557;   
                 }
             }
         }

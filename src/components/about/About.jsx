@@ -5,6 +5,7 @@ export default function About() {
   <div className="about" id="about">
     <div className="wrapper">
       <h2>About</h2>
+      <hr></hr>
       <h3>Who is Angel?</h3>
       <div className="content-container">
         <div className="container-img">

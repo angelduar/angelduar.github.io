@@ -5,6 +5,7 @@ export default function Tools() {
   <div className="tools" id="tools">
       <div className="wrapper">
           <h2 className="light">Skills and Tools</h2>
+          <hr></hr>
           <h3>My Toolbox and Things I Can Do</h3>
           <p>These are some of the tools, skills and technologies that I use to bring ideas to life</p>
           <div className="icons-container">

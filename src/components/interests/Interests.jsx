@@ -5,6 +5,7 @@ export default function Interests() {
   <div className="interests" id="interests">
     <div className="wrapper">
       <h2>Interests</h2>
+      <hr></hr>
       <h3>My Hobbies And Things I do In My Free Time</h3>
       <p>Because life isnt just about work. Here are some of the things that i enjoy outside of programming</p>
       <div className="content-container">

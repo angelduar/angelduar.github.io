@@ -17,10 +17,6 @@
         scroll-behavior: smooth;
         -webkit-scrollbar: none;
 
-        @include mobile{
-            scroll-behavior: auto;
-        }
-
         .intro{
             height: calc(100vh - 70px);
         }
@@ -30,6 +26,10 @@
             height: auto;
             // maybe get rid of this later on
             
+        }
+
+        .contact{
+            margin-bottom: 50px;
         }
 
         .footer{

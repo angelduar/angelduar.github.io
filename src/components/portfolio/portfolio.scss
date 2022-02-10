@@ -24,6 +24,11 @@
                 font-size: 1rem;
             }
         }
+
+        hr{
+                color: #ee6557;
+        }
+        
     
         h2.light{
             color: $mainColor;
@@ -33,8 +38,8 @@
             font-size: 2.1rem;
             text-transform: capitalize;
             line-height: 1.3;
-            margin: 0 0 5rem;
-            color: lightskyblue;
+            margin: 1rem 0 3rem;
+            color: #16a6b6;
 
             @include mobile{
                 font-size: 2rem;
@@ -131,7 +136,7 @@
                 .btn{
                     margin-bottom: 7px;
                     margin-top: 10px;
-                    background-color: lightskyblue;
+                    background-color: #16a6b6;
                     position: relative;
                     display: inline-block;
                     padding: 1rem 1.5rem 1rem;
@@ -146,7 +151,7 @@
                 }
 
                 .btn:hover{
-                    background-color: lightsalmon;
+                    background-color: #ee6557;
                 }
                 
                 .container-icons{

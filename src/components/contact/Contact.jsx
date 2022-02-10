@@ -49,6 +49,7 @@ export default function Contact() {
   <div className="contact" id="contact">
     <div className="wrapper">
     <h2>Contact</h2>
+    <hr></hr>
     <h3>Get In Touch !</h3>
     <div className="content">
       <div className="form">

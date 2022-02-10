@@ -8,6 +8,7 @@ import Menu from "./components/menu/Menu";
 import Tools from "./components/tools/Tools";
 import Footer from "./components/footer/Footer";
 import {useState} from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./app.scss"
 
 function App() {

@@ -152,16 +152,16 @@
                         }
 
                         li{
-                            width: 25px;
-                            height: 25px;
+                            width: 26px;
+                            height: 26px;
                             transform: scale(1);
                             list-style-type: none;
                             margin: 22px;
                             padding: 0;
 
                             @include mobile{
-                                width: 22px;
-                                height: 22px;
+                                width: 21px;
+                                height: 21px;
                             }
                             a{
                                 color:$mainColor;
@@ -172,6 +172,7 @@
                                 font-style:italic;
                                 text-transform: capitalize;
                                 color: lightskyblue;
+                                overflow-x: hidden;
 
                                 @include mobile{
                                     font-size: 1rem;
@@ -189,9 +190,8 @@
                                     font-style: normal;
                                     font-variant: normal;
                                     text-rendering: auto;
-                                    display: inline-block;
-                                    line-height: 1;
-                                    font-size: 1.6rem;
+                                    font-size: 1.5rem;
+                                    overflow-y: hidden;
                                 }
 
                             }
